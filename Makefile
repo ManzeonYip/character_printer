@@ -1,6 +1,6 @@
 # 基本配置
 CC = gcc
-CFLAGS = -Wall -Wextra -I./include  # 头文件路径
+CFLAGS = -fPIC -Wall -Wextra -I./include  # 头文件路径
 LDFLAGS = -shared -fPIC -Wall       # 编译动态库需要
 
 # 目录定义
